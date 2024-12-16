@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, TouchableOpacity, Image, ScrollView } from 'rea
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 // import NavigationBar from '../NavigationBar';
-import NavigationBar from '../pages/NavigationBar';
+// import NavigationBar from '../pages/NavigationBar';
 // import BottomNav from '@/pages/BottomNaV';
 const HomeScreen: React.FC = () => {
   const handleEvent = () => {

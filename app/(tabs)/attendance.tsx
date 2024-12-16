@@ -1,4 +1,6 @@
 import React from "react";
+import { View,Text } from "react-native";
+// import React from "react";
 import { StyleSheet, Image, Platform } from 'react-native';
 
 import { Collapsible } from '@/components/Collapsible';
@@ -7,7 +9,7 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
-const Library:React.FC = () => {
+const Attendance:React.FC = () => {
     return (
         <ParallaxScrollView
         headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
@@ -20,7 +22,7 @@ const Library:React.FC = () => {
           />
         }>
            <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">This is the library screen</ThemedText>
+        <ThemedText type="title">This is the attendance  screen</ThemedText>
     
       </ThemedView>
          
@@ -40,5 +42,4 @@ const styles = StyleSheet.create({
     },
   });
   
-
-export default Library;
+export default Attendance;
